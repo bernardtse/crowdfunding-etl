@@ -17,6 +17,8 @@
 ##### - SQL/crowdfunding_db_schema.sql
 ##### - SQL/erd.png
 ##### - SQL/erd.txt
+
+#### SQL Screenshots
 ##### - SQL/table_screenshots/campaign_screenshot1.png
 ##### - SQL/table_screenshots/campaign_screenshot2.png
 ##### - SQL/table_screenshots/category_screenshot.png
