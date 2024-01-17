@@ -1,4 +1,4 @@
--- Drop Database and Create Database (can only be run in PSQL)
+-- Drop Database and Create Database (can only be run in psql, the terminal-based front-end to PostgreSQL)
 
 DROP DATABASE IF EXISTS crowdfunding_db;
 CREATE DATABASE crowdfunding_db;
