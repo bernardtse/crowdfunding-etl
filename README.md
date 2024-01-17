@@ -1,6 +1,6 @@
 # Crowdfunding_ETL
 
-### - Jupyter Notebook
+### Jupyter Notebook
 ##### - ETL_Mini_Project.ipynb
 
 ### Raw Data
@@ -17,3 +17,5 @@
 ##### - SQL/crowdfunding_db_schema.sql
 ##### - SQL/erd.png
 ##### - SQL/erd.txt
+
+##### * Please note that DROP DATABASE and CREATE DATABASE can only be run in psql, the terminal-based front-end to PostgreSQL.
