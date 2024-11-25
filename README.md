@@ -19,7 +19,7 @@ The repository includes the following structure:
 - **[`ETL_Mini_Project.ipynb`](ETL_Mini_Project.ipynb)**: The main notebook implementing the ETL pipeline.
 
 ### Individual Notebooks
-- **[`Individual_Notebooks`](Individual_Notebooks)**: Contains intermediate notebooks used during collaboration.
+- **[`Individual_Notebooks/`](Individual_Notebooks)**: Contains intermediate notebooks used during collaboration.
 
 ### Raw Data
 - **`Resources/contacts.xlsx`**: Contact details for crowdfunding campaigns.  
