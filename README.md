@@ -11,6 +11,7 @@
 ## 1. Overview
 This Crowdfunding ETL (Extract, Transform, Load) Mini Project involves building an ETL pipeline to process and analyse crowdfunding data. The project includes data extraction and transformation using Python and Pandas, followed by exporting the data into CSV files for further use. These CSV files are then used to create an Entity-Relationship Diagram (ERD) and a database schema, which are implemented in a PostgreSQL database. The processed data is analysed to provide meaningful insights into the crowdfunding campaign landscape.
 
+![ERD](SQL/erd.png)
 
 ## 2. Repository
 The repository includes the following structure:
@@ -72,6 +73,7 @@ This project processes the following datasets:
 
 The processed data is stored in a PostgreSQL database with appropriate relationships defined between the tables.
 
+![Query](SQL/table_screenshots/contacts_screenshot.png)
 
 ## 5. Resources
 - This project was developed as part of an ETL mini project to practise data extraction, transformation, and loading.
