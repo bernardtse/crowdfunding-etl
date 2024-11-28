@@ -19,18 +19,18 @@ The repository includes the following structure:
 - **[`ETL_Mini_Project.ipynb`](ETL_Mini_Project.ipynb)**: The main notebook implementing the ETL pipeline.
 
 ### Individual Notebooks
-- **[`Individual_Notebooks/`](Individual_Notebooks)**: Contains intermediate notebooks used during collaboration.
+- **[`individual_notebooks/`](individual_notebooks)**: Contains intermediate notebooks used during collaboration.
 
 ### Raw Data
-- **`Resources/contacts.xlsx`**: Contact details for crowdfunding campaigns.  
-- **`Resources/crowdfunding.xlsx`**: Crowdfunding campaign details, including financial and categorical information.
+- **`resources/contacts.xlsx`**: Contact details for crowdfunding campaigns.  
+- **`resources/crowdfunding.xlsx`**: Crowdfunding campaign details, including financial and categorical information.
 
 
 ### Exported Data
-- **`Resources/campaign.csv`**: Transformed campaign data.  
-- **`Resources/contacts.csv`**: Transformed contact data.  
-- **`Resources/category.csv`**: Transformed category data.  
-- **`Resources/subcategory.csv`**: Transformed subcategory data.  
+- **`resources/campaign.csv`**: Transformed campaign data.  
+- **`resources/contacts.csv`**: Transformed contact data.  
+- **`resources/category.csv`**: Transformed category data.  
+- **`resources/subcategory.csv`**: Transformed subcategory data.  
 
 ### SQL Files
 - **`SQL/crowdfunding_db_schema.sql`**: SQL script for creating the database schema.  
@@ -58,7 +58,7 @@ To deploy the ETL pipeline and database:
 3. Open `ETL_Mini_Project.ipynb` in Jupyter Notebook and execute the cells step-by-step.
 4. Run the `SQL/crowdfunding_db_schema.sql` script in PostgreSQL to create the database.
 
-**Note**: The `DROP DATABASE` and `CREATE DATABASE` commands must be run in `psql`, the terminal-based front-end for PostgreSQL.
+**Note**: The `DROP DATABASE` and `CREATE DATABASE` commands must be run in `PSQL`, the terminal-based front-end for PostgreSQL.
 
 5. Import the transformed CSV files into the corresponding database tables.
 
