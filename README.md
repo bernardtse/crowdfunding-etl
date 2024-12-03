@@ -11,7 +11,7 @@
 ## 1. Overview
 This Crowdfunding ETL (Extract, Transform, Load) Mini Project involves building an ETL pipeline to process and analyse crowdfunding data. The project includes data extraction and transformation using Python and Pandas, followed by exporting the data into CSV files for further use. These CSV files are then used to create an Entity-Relationship Diagram (ERD) and a database schema, which are implemented in a PostgreSQL database. The processed data is analysed to provide meaningful insights into the crowdfunding campaign landscape.
 
-![ERD](SQL/erd.png)
+![ERD](sql/erd.png)
 
 ## 2. Repository
 The repository includes the following structure:
@@ -34,17 +34,17 @@ The repository includes the following structure:
 - **`resources/subcategory.csv`**: Transformed subcategory data.  
 
 ### SQL Files
-- **`SQL/crowdfunding_db_schema.sql`**: SQL script for creating the database schema.  
-- **[`SQL/erd.png`](SQL/erd.png)**: Entity-Relationship Diagram (ERD) in PNG format.  
-- **`SQL/erd.txt`**: ERD in text format.
+- **`sql/crowdfunding_db_schema.sql`**: SQL script for creating the database schema.  
+- **[`sql/erd.png`](SQL/erd.png)**: Entity-Relationship Diagram (ERD) in PNG format.  
+- **`sql/erd.txt`**: ERD in text format.
 
 ### SQL Screenshots
 - Screenshots of SQL tables:
-    - **[`SQL/table_screenshots/campaign_screenshot1.png`](SQL/table_screenshots/campaign_screenshot1.png)**  
-    - **[`SQL/table_screenshots/campaign_screenshot2.png`](SQL/table_screenshots/campaign_screenshot2.png)**    
-    - **[`SQL/table_screenshots/contacts_screenshot.png`](SQL/table_screenshots/contacts_screenshot.png)**
-    - **[`SQL/table_screenshots/category_screenshot.png`](SQL/table_screenshots/category_screenshot.png)**
-    - **[`SQL/table_screenshots/subcategory_screenshot.png`](SQL/table_screenshots/subcategory_screenshot.png)**  
+    - **[`sql/table_screenshots/campaign_screenshot1.png`](sql/table_screenshots/campaign_screenshot1.png)**  
+    - **[`sql/table_screenshots/campaign_screenshot2.png`](sql/table_screenshots/campaign_screenshot2.png)**    
+    - **[`sql/table_screenshots/contacts_screenshot.png`](sql/table_screenshots/contacts_screenshot.png)**
+    - **[`sql/table_screenshots/category_screenshot.png`](sql/table_screenshots/category_screenshot.png)**
+    - **[`sql/table_screenshots/subcategory_screenshot.png`](sql/table_screenshots/subcategory_screenshot.png)**  
 
 
 ## 3. Deployment
@@ -56,8 +56,8 @@ To deploy the ETL pipeline and database:
     - `datetime`
     - `json`
 2. Clone the repository to your local machine.
-3. Open `ETL_Mini_Project.ipynb` in Jupyter Notebook and execute the cells step-by-step.
-4. Run the `SQL/crowdfunding_db_schema.sql` script in PostgreSQL to create the database.
+3. Open `etl_mini_project.ipynb` in Jupyter Notebook and execute the cells step-by-step.
+4. Run the `sql/crowdfunding_db_schema.sql` script in PostgreSQL to create the database.
 
 **Note**: The `DROP DATABASE` and `CREATE DATABASE` commands must be run in `PSQL`, the terminal-based front-end for PostgreSQL.
 
@@ -73,7 +73,7 @@ This project processes the following datasets:
 
 The processed data is stored in a PostgreSQL database with appropriate relationships defined between the tables.
 
-![Query](SQL/table_screenshots/contacts_screenshot.png)
+![Query](sql/table_screenshots/contacts_screenshot.png)
 
 ## 5. Resources
 - This project was developed as part of an ETL mini project to practise data extraction, transformation, and loading.
