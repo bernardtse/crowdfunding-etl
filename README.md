@@ -35,7 +35,7 @@ The repository includes the following structure:
 
 ### SQL Files
 - **`sql/crowdfunding_db_schema.sql`**: SQL script for creating the database schema.  
-- **[`sql/erd.png`](SQL/erd.png)**: Entity-Relationship Diagram (ERD) in PNG format.  
+- **[`sql/erd.png`](sql/erd.png)**: Entity-Relationship Diagram (ERD) in PNG format.  
 - **`sql/erd.txt`**: ERD in text format.
 
 ### SQL Screenshots
