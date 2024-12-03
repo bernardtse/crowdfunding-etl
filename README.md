@@ -1,4 +1,4 @@
-# Crowdfunding_ETL - ETL Mini Project: Crowdfunding Data Analysis
+# ETL Mini Project: Crowdfunding Data Analysis
 
 ## Contents
 1. [Overview](#1-overview)  
