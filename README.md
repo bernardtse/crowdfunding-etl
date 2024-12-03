@@ -17,7 +17,7 @@ This Crowdfunding ETL (Extract, Transform, Load) Mini Project involves building 
 The repository includes the following structure:
 
 ### Jupyter Notebook
-- **[`ETL_Mini_Project.ipynb`](ETL_Mini_Project.ipynb)**: The main notebook implementing the ETL pipeline.
+- **[`etl_mini_project.ipynb`](etl_mini_project.ipynb)**: The main notebook implementing the ETL pipeline.
 
 ### Individual Notebooks
 - **[`individual_notebooks/`](individual_notebooks)**: Contains intermediate notebooks used during collaboration.
