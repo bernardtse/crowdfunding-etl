@@ -17,26 +17,26 @@ This Crowdfunding ETL (Extract, Transform, Load) Mini Project involves building 
 The repository includes the following structure:
 
 ### Jupyter Notebook
-- **[`etl_mini_project.ipynb`](etl_mini_project.ipynb)**: The main notebook implementing the ETL pipeline.
+- **[`etl_mini_project.ipynb`](etl_mini_project.ipynb)** - The main notebook implementing the ETL pipeline
 
 ### Individual Notebooks
-- **[`individual_notebooks/`](individual_notebooks)**: Contains intermediate notebooks used during collaboration.
+- **[`individual_notebooks/`](individual_notebooks)** - Contains intermediate notebooks used during collaboration
 
 ### Raw Data
-- **`resources/contacts.xlsx`**: Contact details for crowdfunding campaigns.  
-- **`resources/crowdfunding.xlsx`**: Crowdfunding campaign details, including financial and categorical information.
+- **`resources/contacts.xlsx`** - Contact details for crowdfunding campaigns
+- **`resources/crowdfunding.xlsx`** - Crowdfunding campaign details, including financial and categorical information
 
 
 ### Exported Data
-- **`resources/campaign.csv`**: Transformed campaign data.  
-- **`resources/contacts.csv`**: Transformed contact data.  
-- **`resources/category.csv`**: Transformed category data.  
-- **`resources/subcategory.csv`**: Transformed subcategory data.  
+- **`resources/campaign.csv`** - Transformed campaign data
+- **`resources/contacts.csv`** - Transformed contact data
+- **`resources/category.csv`** - Transformed category data
+- **`resources/subcategory.csv`** - Transformed subcategory data
 
 ### SQL Files
-- **`sql/crowdfunding_db_schema.sql`**: SQL script for creating the database schema.  
-- **[`sql/erd.png`](sql/erd.png)**: Entity-Relationship Diagram (ERD) in PNG format.  
-- **`sql/erd.txt`**: ERD in text format.
+- **`sql/crowdfunding_db_schema.sql`** - SQL script for creating the database schema 
+- **[`sql/erd.png`](sql/erd.png)** - Entity-Relationship Diagram (ERD) in PNG format
+- **`sql/erd.txt`** - ERD in text format
 
 ### SQL Screenshots
 - Screenshots of SQL tables:
